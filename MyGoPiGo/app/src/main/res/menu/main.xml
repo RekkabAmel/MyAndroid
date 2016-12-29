@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myGopiGo.MainActivity" >
+
+    <item android:id="@+id/option"
+        android:title="Options"
+        android:icon="@android:drawable/ic_menu_preferences"
+        >
+
+        <item android:id="@+id/about"
+            android:title="A Propos .."  />
+
+    </item>
+
+    <item android:id="@+id/other"
+        android:title="Autre"  />
+
+
+    <item android:id="@+id/quitter"
+        android:title="Quitter"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        />
+
+</menu>
