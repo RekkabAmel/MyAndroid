@@ -23,7 +23,7 @@ public class Graph extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.graph);
         // we get graph view instance
         GraphView graph = (GraphView) findViewById(R.id.graph);
         // data

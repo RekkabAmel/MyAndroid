@@ -65,10 +65,19 @@ public class stat extends MainActivity {
         Button btnStat =(Button)findViewById(R.id.btnStat);
         Button btnStop =(Button)findViewById(R.id.btnStop);
         Button btnGraph=(Button)findViewById(R.id.button5);
+        Button btnData = (Button)findViewById(R.id.btnData);
         btnGraph.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(stat.this, Graph.class);
+                startActivity(i);
+            }
+        });
+
+        btnData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(stat.this, TestDatabaseActivity.class);
                 startActivity(i);
             }
         });

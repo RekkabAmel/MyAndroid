@@ -47,7 +47,9 @@ public class manuel extends MainActivity {
         Button btn5Moins = (Button)findViewById(R.id.btn5Moins);
         Button btn6Plus = (Button)findViewById(R.id.btn6Plus);
         Button btn6Moins = (Button)findViewById(R.id.btn6Moins);
+
         Button btnReceive = (Button)findViewById(R.id.ButtonReceive);
+
 
 
 
