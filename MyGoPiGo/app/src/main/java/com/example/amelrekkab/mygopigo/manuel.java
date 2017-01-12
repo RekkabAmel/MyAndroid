@@ -15,7 +15,7 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 /**
- * Created by Amel Rekkab on 21/12/2016.
+ * Created  on 21/12/2016.
  */
 
 public class manuel extends MainActivity {

@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Created by Amel Rekkab on 30/12/2016.
+ * Created on 30/12/2016.
  */
 
 public class TestDatabaseActivity extends ListActivity {

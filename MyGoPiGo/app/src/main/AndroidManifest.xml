@@ -23,6 +23,8 @@
         <activity android:name=".automatique"/>
         <activity android:name=".manuel"/>
         <activity android:name=".stat"/>
+        <activity android:name=".ConnexionPage"/>
+        <activity android:name=".piloter"></activity>
         <activity android:name=".Graph"></activity>
     <meta-data
             android:name="com.google.android.gms.version"

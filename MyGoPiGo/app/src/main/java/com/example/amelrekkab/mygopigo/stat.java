@@ -31,14 +31,14 @@ import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 /**
- * Created by Amel Rekkab on 21/12/2016.
+ * Created on 21/12/2016.
  */
 
 public class stat extends MainActivity {
 
 
-    int port = 8080;
-    String ip = "192.168.43.39";
+    int port = 22;
+    String ip = "192.168.43.160";
     TextView tempText;
     TextView lumText ;
     TextView disText;

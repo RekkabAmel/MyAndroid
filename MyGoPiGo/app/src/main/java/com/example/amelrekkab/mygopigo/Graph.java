@@ -11,7 +11,7 @@ import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
 /**
- * Created by Amel Rekkab on 29/12/2016.
+ * Created on 29/12/2016.
  */
 
 public class Graph extends Activity {

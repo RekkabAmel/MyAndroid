@@ -26,6 +26,7 @@ public class MainActivity extends ActionBarActivity {
     Button btn_manuel;
     Button btn_auto;
     Button btnReceive;
+    Button buttonRobot;
     boolean isDisconnectCheckedButton = false;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -39,6 +40,8 @@ public class MainActivity extends ActionBarActivity {
 
         final Intent intentStat = new Intent(MainActivity.this, stat.class);
 
+        final Intent intentStat1 = new Intent(MainActivity.this, ConnexionPage.class);
+
         wifiManager = (WifiManager) this.getSystemService(Context.WIFI_SERVICE);
 
         super.onCreate(savedInstanceState);
@@ -47,7 +50,7 @@ public class MainActivity extends ActionBarActivity {
         btn_connect = (Button) findViewById(R.id.btnConnect);
 
         btnReceive = (Button) findViewById(R.id.Receive);
-
+        buttonRobot = (Button) findViewById(R.id.buttonRobot);
 
         // Gestion des boutons ..
 
@@ -75,6 +78,15 @@ public class MainActivity extends ActionBarActivity {
 
             }
         });
+
+        buttonRobot.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+
+                    startActivity(intentStat1);
+            }
+        });
+
 
         btnReceive.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

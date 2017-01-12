@@ -15,7 +15,7 @@ import java.util.List;
 import static android.R.attr.id;
 
 /**
- * Created by Amel Rekkab on 27/12/2016.
+ * Created on 27/12/2016.
  */
 
 public class statitDataSource {

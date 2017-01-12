@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by Amel Rekkab on 21/12/2016.
+ * Created on 21/12/2016.
  */
 
 public class automatique extends MainActivity {

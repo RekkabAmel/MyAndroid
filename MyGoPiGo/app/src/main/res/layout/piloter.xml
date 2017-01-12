@@ -18,34 +18,32 @@
         android:orientation="vertical" >
 
         <Button
-            android:id="@+id/Receive"
+            android:text="Avancer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:text="VOIR LES STATISTIQUES" />
+            android:id="@+id/button" />
+
         <Button
-            android:text="ConnectRobot"
+            android:text="RECULER "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonRobot" />
-        
+            android:id="@+id/button2" />
+
+        <Button
+            android:text="GAUCHE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3" />
+
+        <Button
+            android:text="DROITE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4" />
+
     </LinearLayout>
 
 
-    <LinearLayout
-        android:id="@+id/btn4Plus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:orientation="horizontal" >
 
-        <Button
-            android:id="@+id/btnConnect"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|left|right"
-            android:text="CONNECTER" />
-    </LinearLayout>
 
 </RelativeLayout>

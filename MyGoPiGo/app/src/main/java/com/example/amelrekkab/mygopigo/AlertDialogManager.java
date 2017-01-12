@@ -1,7 +1,7 @@
 package com.example.amelrekkab.mygopigo;
 
 /**
- * Created by Amel Rekkab on 21/12/2016.
+ * Created on 21/12/2016.
  */
 import android.app.AlertDialog;
 import android.content.Context;
